@@ -1,0 +1,24 @@
+{
+ "jobs": [
+  {
+   "id": 101,
+   "title": "IT Systems Engineer",
+   "company_name": "Example Robotics",
+   "location": {
+    "name": "Remote - US"
+   },
+   "absolute_url": "https://job-boards.greenhouse.io/examplerobotics/jobs/101",
+   "content": "&lt;h3&gt;What you will do&lt;/h3&gt;&lt;p&gt;Own our Mac and Windows fleet.&lt;/p&gt;&lt;h3&gt;Requirements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;3+ years administering Okta (SSO, SCIM, lifecycle)&lt;/li&gt;&lt;li&gt;Experience with Microsoft Intune and Jamf Pro&lt;/li&gt;&lt;li&gt;CrowdStrike Falcon&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Benefits&lt;/h3&gt;&lt;p&gt;Chat with the team on Slack from day one.&lt;/p&gt;"
+  },
+  {
+   "id": 102,
+   "title": "Account Executive",
+   "company_name": "Example Robotics",
+   "location": {
+    "name": "New York, NY"
+   },
+   "absolute_url": "https://job-boards.greenhouse.io/examplerobotics/jobs/102",
+   "content": "&lt;p&gt;Our customers include Okta and Snowflake. We use Salesforce daily.&lt;/p&gt;"
+  }
+ ]
+}

@@ -1,0 +1,2942 @@
+{
+ "name": "jobstack tech dictionary",
+ "version": "2026-11-02",
+ "license": "MIT",
+ "source": "Written by hand by the jobstack maintainer. No third-party lists were copied. See DICTIONARY.md.",
+ "fields": {
+  "tag": "canonical name",
+  "category": "one of the categories below",
+  "aliases": "case-insensitive whole-word spellings",
+  "caseSensitive": "spellings that only match with this exact capitalization (everyday words such as Slack, Zoom, Git)",
+  "gated": "spellings that only count in a requirement context (a requirements section, or next to a phrase such as \"experience with\")",
+  "ignoreIn": "phrases that contain an alias but are something else"
+ },
+ "entries": [
+  {
+   "tag": "Microsoft Intune",
+   "category": "endpoint-mgmt",
+   "aliases": [
+    "Intune",
+    "Microsoft Intune",
+    "Microsoft Endpoint Manager",
+    "Endpoint Manager"
+   ],
+   "caseSensitive": [
+    "MEM"
+   ],
+   "ignoreIn": [
+    "Ivanti Endpoint Manager",
+    "Symantec Endpoint Manager",
+    "Endpoint Manager Plus"
+   ]
+  },
+  {
+   "tag": "Microsoft Configuration Manager (SCCM)",
+   "category": "endpoint-mgmt",
+   "aliases": [
+    "SCCM",
+    "MECM",
+    "ConfigMgr",
+    "System Center Configuration Manager",
+    "Microsoft Endpoint Configuration Manager",
+    "Configuration Manager"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Windows Autopilot",
+   "category": "endpoint-mgmt",
+   "aliases": [
+    "Windows Autopilot",
+    "Microsoft Autopilot"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "WSUS",
+   "category": "endpoint-mgmt",
+   "aliases": [
+    "WSUS",
+    "Windows Server Update Services"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Group Policy",
+   "category": "endpoint-mgmt",
+   "aliases": [
+    "Group Policy"
+   ],
+   "caseSensitive": [
+    "GPO",
+    "GPOs"
+   ]
+  },
+  {
+   "tag": "Jamf",
+   "category": "endpoint-mgmt",
+   "aliases": [
+    "Jamf",
+    "Jamf Pro",
+    "Jamf Connect",
+    "Jamf School"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Kandji",
+   "category": "endpoint-mgmt",
+   "aliases": [
+    "Kandji"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Mosyle",
+   "category": "endpoint-mgmt",
+   "aliases": [
+    "Mosyle"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Omnissa Workspace ONE",
+   "category": "endpoint-mgmt",
+   "aliases": [
+    "Workspace ONE",
+    "AirWatch",
+    "VMware Workspace ONE",
+    "Omnissa"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Tanium",
+   "category": "endpoint-mgmt",
+   "aliases": [
+    "Tanium"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "HCL BigFix",
+   "category": "endpoint-mgmt",
+   "aliases": [
+    "BigFix"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Ivanti",
+   "category": "endpoint-mgmt",
+   "aliases": [
+    "Ivanti",
+    "LANDesk",
+    "MobileIron"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "ManageEngine",
+   "category": "endpoint-mgmt",
+   "aliases": [
+    "ManageEngine",
+    "Endpoint Central",
+    "Desktop Central"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Addigy",
+   "category": "endpoint-mgmt",
+   "aliases": [
+    "Addigy"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Hexnode",
+   "category": "endpoint-mgmt",
+   "aliases": [
+    "Hexnode"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Microsoft Entra ID",
+   "category": "identity",
+   "aliases": [
+    "Entra ID",
+    "Microsoft Entra",
+    "Azure AD",
+    "Azure Active Directory"
+   ],
+   "caseSensitive": [
+    "AAD"
+   ]
+  },
+  {
+   "tag": "Active Directory",
+   "category": "identity",
+   "aliases": [
+    "Active Directory",
+    "Active Directory Federation Services"
+   ],
+   "caseSensitive": [
+    "ADFS"
+   ]
+  },
+  {
+   "tag": "Okta",
+   "category": "identity",
+   "aliases": [
+    "Okta"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Ping Identity",
+   "category": "identity",
+   "aliases": [
+    "Ping Identity",
+    "PingFederate",
+    "PingOne",
+    "PingID"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "SailPoint",
+   "category": "identity",
+   "aliases": [
+    "SailPoint",
+    "IdentityNow",
+    "IdentityIQ"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "CyberArk",
+   "category": "identity",
+   "aliases": [
+    "CyberArk"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "BeyondTrust",
+   "category": "identity",
+   "aliases": [
+    "BeyondTrust"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Delinea",
+   "category": "identity",
+   "aliases": [
+    "Delinea",
+    "Thycotic",
+    "Centrify"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Saviynt",
+   "category": "identity",
+   "aliases": [
+    "Saviynt"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "OneLogin",
+   "category": "identity",
+   "aliases": [
+    "OneLogin"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Auth0",
+   "category": "identity",
+   "aliases": [
+    "Auth0"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "JumpCloud",
+   "category": "identity",
+   "aliases": [
+    "JumpCloud"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Keycloak",
+   "category": "identity",
+   "aliases": [
+    "Keycloak"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Cisco Duo",
+   "category": "identity",
+   "aliases": [
+    "Duo Security",
+    "Cisco Duo"
+   ],
+   "caseSensitive": [
+    "Duo MFA"
+   ]
+  },
+  {
+   "tag": "ForgeRock",
+   "category": "identity",
+   "aliases": [
+    "ForgeRock"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Google Cloud Identity",
+   "category": "identity",
+   "aliases": [
+    "Google Cloud Identity"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "1Password",
+   "category": "identity",
+   "aliases": [
+    "1Password"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "LastPass",
+   "category": "identity",
+   "aliases": [
+    "LastPass"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Bitwarden",
+   "category": "identity",
+   "aliases": [
+    "Bitwarden"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "HashiCorp Vault",
+   "category": "identity",
+   "aliases": [
+    "HashiCorp Vault"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "SAML",
+   "category": "identity",
+   "aliases": [
+    "SAML"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "SCIM",
+   "category": "identity",
+   "aliases": [],
+   "caseSensitive": [
+    "SCIM"
+   ]
+  },
+  {
+   "tag": "OAuth",
+   "category": "identity",
+   "aliases": [
+    "OAuth",
+    "OAuth2",
+    "OAuth 2.0"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "CrowdStrike",
+   "category": "security",
+   "aliases": [
+    "CrowdStrike",
+    "CrowdStrike Falcon"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "SentinelOne",
+   "category": "security",
+   "aliases": [
+    "SentinelOne"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Microsoft Defender",
+   "category": "security",
+   "aliases": [
+    "Microsoft Defender",
+    "Defender for Endpoint",
+    "Defender for Office 365",
+    "Defender for Cloud",
+    "Microsoft Defender XDR"
+   ],
+   "caseSensitive": [
+    "MDE"
+   ]
+  },
+  {
+   "tag": "Carbon Black",
+   "category": "security",
+   "aliases": [
+    "Carbon Black"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Sophos",
+   "category": "security",
+   "aliases": [
+    "Sophos"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Trend Micro",
+   "category": "security",
+   "aliases": [
+    "Trend Micro"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Palo Alto Networks",
+   "category": "security",
+   "aliases": [
+    "Palo Alto Networks",
+    "Palo Alto firewall",
+    "Palo Alto firewalls",
+    "PAN-OS",
+    "Prisma Cloud",
+    "Prisma Access",
+    "Cortex XDR",
+    "Cortex XSOAR"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Fortinet",
+   "category": "security",
+   "aliases": [
+    "Fortinet",
+    "FortiGate",
+    "FortiAnalyzer",
+    "FortiManager"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Check Point",
+   "category": "security",
+   "aliases": [
+    "Check Point firewall",
+    "Checkpoint firewall"
+   ],
+   "caseSensitive": [
+    "Check Point"
+   ]
+  },
+  {
+   "tag": "Zscaler",
+   "category": "security",
+   "aliases": [
+    "Zscaler"
+   ],
+   "caseSensitive": [
+    "ZIA",
+    "ZPA"
+   ]
+  },
+  {
+   "tag": "Netskope",
+   "category": "security",
+   "aliases": [
+    "Netskope"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Cloudflare",
+   "category": "security",
+   "aliases": [
+    "Cloudflare"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Splunk",
+   "category": "security",
+   "aliases": [
+    "Splunk",
+    "Splunk Enterprise Security",
+    "Splunk SOAR"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Microsoft Sentinel",
+   "category": "security",
+   "aliases": [
+    "Microsoft Sentinel",
+    "Azure Sentinel"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "IBM QRadar",
+   "category": "security",
+   "aliases": [
+    "QRadar"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Elastic Security",
+   "category": "security",
+   "aliases": [
+    "Elastic SIEM",
+    "Elastic Security"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Sumo Logic",
+   "category": "security",
+   "aliases": [
+    "Sumo Logic"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Exabeam",
+   "category": "security",
+   "aliases": [
+    "Exabeam"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Securonix",
+   "category": "security",
+   "aliases": [
+    "Securonix"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Arctic Wolf",
+   "category": "security",
+   "aliases": [
+    "Arctic Wolf"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Wiz",
+   "category": "security",
+   "aliases": [],
+   "caseSensitive": [
+    "Wiz"
+   ]
+  },
+  {
+   "tag": "Orca Security",
+   "category": "security",
+   "aliases": [
+    "Orca Security"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Lacework",
+   "category": "security",
+   "aliases": [
+    "Lacework"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Snyk",
+   "category": "security",
+   "aliases": [
+    "Snyk"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Veracode",
+   "category": "security",
+   "aliases": [
+    "Veracode"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Checkmarx",
+   "category": "security",
+   "aliases": [
+    "Checkmarx"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "SonarQube",
+   "category": "security",
+   "aliases": [
+    "SonarQube",
+    "SonarCloud"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Tenable",
+   "category": "security",
+   "aliases": [
+    "Tenable",
+    "Nessus",
+    "Tenable.io",
+    "Tenable.sc"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Qualys",
+   "category": "security",
+   "aliases": [
+    "Qualys"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Rapid7",
+   "category": "security",
+   "aliases": [
+    "Rapid7",
+    "InsightVM",
+    "InsightIDR",
+    "Nexpose",
+    "Metasploit"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Burp Suite",
+   "category": "security",
+   "aliases": [
+    "Burp Suite"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Wireshark",
+   "category": "security",
+   "aliases": [
+    "Wireshark"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Nmap",
+   "category": "security",
+   "aliases": [
+    "Nmap"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Proofpoint",
+   "category": "security",
+   "aliases": [
+    "Proofpoint"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Mimecast",
+   "category": "security",
+   "aliases": [
+    "Mimecast"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Abnormal Security",
+   "category": "security",
+   "aliases": [
+    "Abnormal Security"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "KnowBe4",
+   "category": "security",
+   "aliases": [
+    "KnowBe4"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Darktrace",
+   "category": "security",
+   "aliases": [
+    "Darktrace"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Varonis",
+   "category": "security",
+   "aliases": [
+    "Varonis"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Vanta",
+   "category": "security",
+   "aliases": [],
+   "caseSensitive": [
+    "Vanta"
+   ]
+  },
+  {
+   "tag": "Drata",
+   "category": "security",
+   "aliases": [],
+   "caseSensitive": [
+    "Drata"
+   ]
+  },
+  {
+   "tag": "OneTrust",
+   "category": "security",
+   "aliases": [
+    "OneTrust"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "MITRE ATT&CK",
+   "category": "security",
+   "aliases": [
+    "MITRE ATT&CK",
+    "ATT&CK"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "NIST CSF",
+   "category": "compliance",
+   "aliases": [
+    "NIST CSF",
+    "NIST 800-53",
+    "NIST SP 800-53",
+    "NIST 800-171"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "ISO 27001",
+   "category": "compliance",
+   "aliases": [
+    "ISO 27001",
+    "ISO/IEC 27001"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "SOC 2",
+   "category": "compliance",
+   "aliases": [
+    "SOC 2",
+    "SOC2"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "FedRAMP",
+   "category": "compliance",
+   "aliases": [
+    "FedRAMP"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "CMMC",
+   "category": "compliance",
+   "aliases": [
+    "CMMC"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "PCI DSS",
+   "category": "compliance",
+   "aliases": [
+    "PCI DSS",
+    "PCI-DSS"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "HIPAA",
+   "category": "compliance",
+   "aliases": [
+    "HIPAA"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "GDPR",
+   "category": "compliance",
+   "aliases": [
+    "GDPR"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "ServiceNow",
+   "category": "itsm",
+   "aliases": [
+    "ServiceNow",
+    "ServiceNow ITSM",
+    "ServiceNow ITOM"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Jira Service Management",
+   "category": "itsm",
+   "aliases": [
+    "Jira Service Management",
+    "Jira Service Desk"
+   ],
+   "caseSensitive": [
+    "JSM"
+   ]
+  },
+  {
+   "tag": "Freshservice",
+   "category": "itsm",
+   "aliases": [
+    "Freshservice"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Zendesk",
+   "category": "itsm",
+   "aliases": [
+    "Zendesk"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "BMC Helix",
+   "category": "itsm",
+   "aliases": [
+    "BMC Helix",
+    "BMC Remedy",
+    "Remedy ITSM"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Cherwell",
+   "category": "itsm",
+   "aliases": [
+    "Cherwell"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "TOPdesk",
+   "category": "itsm",
+   "aliases": [
+    "TOPdesk"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "SysAid",
+   "category": "itsm",
+   "aliases": [
+    "SysAid"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "ITIL",
+   "category": "itsm",
+   "aliases": [
+    "ITIL",
+    "ITIL 4",
+    "ITIL v4"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "ConnectWise",
+   "category": "rmm-msp",
+   "aliases": [
+    "ConnectWise",
+    "ConnectWise Manage",
+    "ConnectWise Automate",
+    "ScreenConnect"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Kaseya",
+   "category": "rmm-msp",
+   "aliases": [
+    "Kaseya",
+    "Kaseya VSA"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "NinjaOne",
+   "category": "rmm-msp",
+   "aliases": [
+    "NinjaOne",
+    "NinjaRMM"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Datto",
+   "category": "rmm-msp",
+   "aliases": [
+    "Datto",
+    "Datto RMM"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "N-able",
+   "category": "rmm-msp",
+   "aliases": [
+    "N-able",
+    "N-central",
+    "SolarWinds MSP"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Atera",
+   "category": "rmm-msp",
+   "aliases": [
+    "Atera"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Syncro",
+   "category": "rmm-msp",
+   "aliases": [
+    "SyncroMSP",
+    "Syncro RMM"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Autotask",
+   "category": "rmm-msp",
+   "aliases": [
+    "Autotask"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "TeamViewer",
+   "category": "rmm-msp",
+   "aliases": [
+    "TeamViewer"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Splashtop",
+   "category": "rmm-msp",
+   "aliases": [
+    "Splashtop"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "BeyondTrust Remote Support",
+   "category": "rmm-msp",
+   "aliases": [
+    "Bomgar"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Microsoft 365",
+   "category": "collaboration",
+   "aliases": [
+    "Microsoft 365",
+    "Office 365",
+    "M365",
+    "O365"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Exchange",
+   "category": "collaboration",
+   "aliases": [
+    "Exchange Online",
+    "Microsoft Exchange",
+    "Exchange Server"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "SharePoint",
+   "category": "collaboration",
+   "aliases": [
+    "SharePoint",
+    "SharePoint Online"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "OneDrive",
+   "category": "collaboration",
+   "aliases": [
+    "OneDrive"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Microsoft Teams",
+   "category": "collaboration",
+   "aliases": [
+    "Microsoft Teams",
+    "MS Teams"
+   ],
+   "caseSensitive": [],
+   "gated": [
+    "Microsoft Teams",
+    "MS Teams"
+   ]
+  },
+  {
+   "tag": "Google Workspace",
+   "category": "collaboration",
+   "aliases": [
+    "Google Workspace",
+    "G Suite",
+    "GSuite"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Slack",
+   "category": "collaboration",
+   "aliases": [],
+   "caseSensitive": [
+    "Slack"
+   ],
+   "gated": [
+    "Slack"
+   ]
+  },
+  {
+   "tag": "Zoom",
+   "category": "collaboration",
+   "aliases": [
+    "Zoom Rooms",
+    "Zoom Phone"
+   ],
+   "caseSensitive": [
+    "Zoom"
+   ],
+   "gated": [
+    "Zoom"
+   ]
+  },
+  {
+   "tag": "Cisco Webex",
+   "category": "collaboration",
+   "aliases": [
+    "Webex"
+   ],
+   "caseSensitive": [],
+   "gated": [
+    "Webex"
+   ]
+  },
+  {
+   "tag": "RingCentral",
+   "category": "collaboration",
+   "aliases": [
+    "RingCentral"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Atlassian Confluence",
+   "category": "collaboration",
+   "aliases": [
+    "Confluence"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Jira",
+   "category": "collaboration",
+   "aliases": [
+    "Jira",
+    "JIRA"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Notion",
+   "category": "collaboration",
+   "aliases": [],
+   "caseSensitive": [
+    "Notion"
+   ]
+  },
+  {
+   "tag": "Asana",
+   "category": "collaboration",
+   "aliases": [],
+   "caseSensitive": [
+    "Asana"
+   ]
+  },
+  {
+   "tag": "Monday.com",
+   "category": "collaboration",
+   "aliases": [
+    "Monday.com"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Smartsheet",
+   "category": "collaboration",
+   "aliases": [
+    "Smartsheet"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Box",
+   "category": "collaboration",
+   "aliases": [
+    "Box.com"
+   ],
+   "caseSensitive": [
+    "Box Enterprise"
+   ]
+  },
+  {
+   "tag": "Dropbox",
+   "category": "collaboration",
+   "aliases": [
+    "Dropbox"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "DocuSign",
+   "category": "collaboration",
+   "aliases": [
+    "DocuSign"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Miro",
+   "category": "collaboration",
+   "aliases": [],
+   "caseSensitive": [
+    "Miro"
+   ]
+  },
+  {
+   "tag": "Microsoft Power Platform",
+   "category": "collaboration",
+   "aliases": [
+    "Power Platform",
+    "Power Automate",
+    "Power Apps",
+    "PowerApps"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "AWS",
+   "category": "cloud",
+   "aliases": [
+    "AWS",
+    "Amazon Web Services"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "AWS EC2",
+   "category": "cloud",
+   "aliases": [
+    "EC2",
+    "Amazon EC2"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "AWS S3",
+   "category": "cloud",
+   "aliases": [
+    "Amazon S3"
+   ],
+   "caseSensitive": [
+    "S3"
+   ]
+  },
+  {
+   "tag": "AWS Lambda",
+   "category": "cloud",
+   "aliases": [
+    "AWS Lambda"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "AWS IAM",
+   "category": "cloud",
+   "aliases": [
+    "AWS IAM"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "AWS CloudFormation",
+   "category": "cloud",
+   "aliases": [
+    "CloudFormation"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Microsoft Azure",
+   "category": "cloud",
+   "aliases": [
+    "Azure",
+    "Microsoft Azure"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Google Cloud",
+   "category": "cloud",
+   "aliases": [
+    "Google Cloud",
+    "GCP",
+    "Google Cloud Platform"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Oracle Cloud",
+   "category": "cloud",
+   "aliases": [
+    "Oracle Cloud",
+    "Oracle Cloud Infrastructure"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "IBM Cloud",
+   "category": "cloud",
+   "aliases": [
+    "IBM Cloud"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "DigitalOcean",
+   "category": "cloud",
+   "aliases": [
+    "DigitalOcean"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Heroku",
+   "category": "cloud",
+   "aliases": [
+    "Heroku"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Vercel",
+   "category": "cloud",
+   "aliases": [],
+   "caseSensitive": [
+    "Vercel"
+   ]
+  },
+  {
+   "tag": "Akamai",
+   "category": "cloud",
+   "aliases": [
+    "Akamai"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Kubernetes",
+   "category": "devops",
+   "aliases": [
+    "Kubernetes",
+    "K8s"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Docker",
+   "category": "devops",
+   "aliases": [
+    "Docker",
+    "Docker Compose"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Red Hat OpenShift",
+   "category": "devops",
+   "aliases": [
+    "OpenShift"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Amazon EKS",
+   "category": "devops",
+   "aliases": [
+    "Amazon EKS"
+   ],
+   "caseSensitive": [
+    "EKS"
+   ]
+  },
+  {
+   "tag": "Azure Kubernetes Service",
+   "category": "devops",
+   "aliases": [
+    "Azure Kubernetes Service"
+   ],
+   "caseSensitive": [
+    "AKS"
+   ]
+  },
+  {
+   "tag": "Google Kubernetes Engine",
+   "category": "devops",
+   "aliases": [
+    "Google Kubernetes Engine"
+   ],
+   "caseSensitive": [
+    "GKE"
+   ]
+  },
+  {
+   "tag": "Helm",
+   "category": "devops",
+   "aliases": [
+    "Helm charts"
+   ],
+   "caseSensitive": [
+    "Helm"
+   ]
+  },
+  {
+   "tag": "Terraform",
+   "category": "devops",
+   "aliases": [
+    "Terraform",
+    "Terraform Cloud",
+    "OpenTofu"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Pulumi",
+   "category": "devops",
+   "aliases": [
+    "Pulumi"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Ansible",
+   "category": "devops",
+   "aliases": [
+    "Ansible",
+    "Ansible Tower",
+    "AWX"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Puppet",
+   "category": "devops",
+   "aliases": [],
+   "caseSensitive": [
+    "Puppet"
+   ]
+  },
+  {
+   "tag": "Chef",
+   "category": "devops",
+   "aliases": [
+    "Chef Infra",
+    "Progress Chef",
+    "Opscode Chef"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "SaltStack",
+   "category": "devops",
+   "aliases": [
+    "SaltStack"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Packer",
+   "category": "devops",
+   "aliases": [
+    "HashiCorp Packer"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Consul",
+   "category": "devops",
+   "aliases": [
+    "HashiCorp Consul"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Argo CD",
+   "category": "devops",
+   "aliases": [
+    "Argo CD",
+    "ArgoCD",
+    "Argo Workflows"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Flux",
+   "category": "devops",
+   "aliases": [
+    "FluxCD",
+    "Flux CD"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Jenkins",
+   "category": "devops",
+   "aliases": [],
+   "caseSensitive": [
+    "Jenkins"
+   ]
+  },
+  {
+   "tag": "GitHub Actions",
+   "category": "devops",
+   "aliases": [
+    "GitHub Actions"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "GitLab",
+   "category": "devops",
+   "aliases": [
+    "GitLab",
+    "GitLab CI"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "GitHub",
+   "category": "devops",
+   "aliases": [
+    "GitHub"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Bitbucket",
+   "category": "devops",
+   "aliases": [
+    "Bitbucket"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "CircleCI",
+   "category": "devops",
+   "aliases": [
+    "CircleCI"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Azure DevOps",
+   "category": "devops",
+   "aliases": [
+    "Azure DevOps",
+    "Azure Pipelines"
+   ],
+   "caseSensitive": [
+    "ADO"
+   ]
+  },
+  {
+   "tag": "TeamCity",
+   "category": "devops",
+   "aliases": [
+    "TeamCity"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Octopus Deploy",
+   "category": "devops",
+   "aliases": [
+    "Octopus Deploy"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Spinnaker",
+   "category": "devops",
+   "aliases": [],
+   "caseSensitive": [
+    "Spinnaker"
+   ]
+  },
+  {
+   "tag": "Istio",
+   "category": "devops",
+   "aliases": [
+    "Istio"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Envoy",
+   "category": "devops",
+   "aliases": [
+    "Envoy Proxy"
+   ],
+   "caseSensitive": [
+    "Envoy proxy"
+   ]
+  },
+  {
+   "tag": "NGINX",
+   "category": "devops",
+   "aliases": [
+    "NGINX",
+    "nginx"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Apache HTTP Server",
+   "category": "devops",
+   "aliases": [
+    "Apache HTTP Server",
+    "Apache httpd"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "HAProxy",
+   "category": "devops",
+   "aliases": [
+    "HAProxy"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Git",
+   "category": "devops",
+   "aliases": [],
+   "caseSensitive": [
+    "Git"
+   ]
+  },
+  {
+   "tag": "Datadog",
+   "category": "observability",
+   "aliases": [
+    "Datadog"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "New Relic",
+   "category": "observability",
+   "aliases": [
+    "New Relic"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Dynatrace",
+   "category": "observability",
+   "aliases": [
+    "Dynatrace"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "AppDynamics",
+   "category": "observability",
+   "aliases": [
+    "AppDynamics"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Prometheus",
+   "category": "observability",
+   "aliases": [],
+   "caseSensitive": [
+    "Prometheus"
+   ]
+  },
+  {
+   "tag": "Grafana",
+   "category": "observability",
+   "aliases": [
+    "Grafana"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "OpenTelemetry",
+   "category": "observability",
+   "aliases": [
+    "OpenTelemetry"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Elastic Stack (ELK)",
+   "category": "observability",
+   "aliases": [
+    "Elasticsearch",
+    "Elastic Stack",
+    "ELK",
+    "ELK Stack",
+    "Kibana",
+    "Logstash"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "PagerDuty",
+   "category": "observability",
+   "aliases": [
+    "PagerDuty"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Opsgenie",
+   "category": "observability",
+   "aliases": [
+    "Opsgenie"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Nagios",
+   "category": "observability",
+   "aliases": [
+    "Nagios"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Zabbix",
+   "category": "observability",
+   "aliases": [
+    "Zabbix"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "SolarWinds",
+   "category": "observability",
+   "aliases": [
+    "SolarWinds",
+    "SolarWinds Orion"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "LogicMonitor",
+   "category": "observability",
+   "aliases": [
+    "LogicMonitor"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "PRTG",
+   "category": "observability",
+   "aliases": [
+    "PRTG"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Honeycomb",
+   "category": "observability",
+   "aliases": [],
+   "caseSensitive": [
+    "Honeycomb"
+   ]
+  },
+  {
+   "tag": "Sentry",
+   "category": "observability",
+   "aliases": [],
+   "caseSensitive": [
+    "Sentry"
+   ]
+  },
+  {
+   "tag": "Cisco",
+   "category": "networking",
+   "aliases": [
+    "Cisco",
+    "Cisco IOS",
+    "Cisco ISE",
+    "Cisco ASA",
+    "CCNA",
+    "CCNP",
+    "CCIE"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Cisco Meraki",
+   "category": "networking",
+   "aliases": [
+    "Meraki"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Juniper Networks",
+   "category": "networking",
+   "aliases": [
+    "Juniper",
+    "Junos",
+    "Mist AI",
+    "Juniper Mist"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Arista Networks",
+   "category": "networking",
+   "aliases": [
+    "Arista"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "HPE Aruba",
+   "category": "networking",
+   "aliases": [
+    "Aruba",
+    "Aruba Networks",
+    "HPE Aruba"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Ubiquiti",
+   "category": "networking",
+   "aliases": [
+    "Ubiquiti",
+    "UniFi"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "F5",
+   "category": "networking",
+   "aliases": [
+    "F5 BIG-IP",
+    "BIG-IP"
+   ],
+   "caseSensitive": [
+    "F5"
+   ]
+  },
+  {
+   "tag": "Infoblox",
+   "category": "networking",
+   "aliases": [
+    "Infoblox"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "SD-WAN",
+   "category": "networking",
+   "aliases": [
+    "SD-WAN",
+    "SDWAN"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "BGP",
+   "category": "networking",
+   "aliases": [],
+   "caseSensitive": [
+    "BGP"
+   ]
+  },
+  {
+   "tag": "OSPF",
+   "category": "networking",
+   "aliases": [],
+   "caseSensitive": [
+    "OSPF"
+   ]
+  },
+  {
+   "tag": "VMware vSphere",
+   "category": "virtualization",
+   "aliases": [
+    "VMware",
+    "vSphere",
+    "ESXi",
+    "vCenter",
+    "vSAN",
+    "NSX",
+    "VMware Horizon"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Microsoft Hyper-V",
+   "category": "virtualization",
+   "aliases": [
+    "Hyper-V"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Citrix",
+   "category": "virtualization",
+   "aliases": [
+    "Citrix",
+    "Citrix Virtual Apps",
+    "XenApp",
+    "XenDesktop",
+    "NetScaler"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Nutanix",
+   "category": "virtualization",
+   "aliases": [
+    "Nutanix"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Proxmox",
+   "category": "virtualization",
+   "aliases": [
+    "Proxmox"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Azure Virtual Desktop",
+   "category": "virtualization",
+   "aliases": [
+    "Azure Virtual Desktop",
+    "Windows Virtual Desktop"
+   ],
+   "caseSensitive": [
+    "AVD"
+   ]
+  },
+  {
+   "tag": "Windows 365",
+   "category": "virtualization",
+   "aliases": [
+    "Windows 365",
+    "Cloud PC"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Amazon WorkSpaces",
+   "category": "virtualization",
+   "aliases": [
+    "Amazon WorkSpaces",
+    "AWS WorkSpaces"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Windows Server",
+   "category": "os",
+   "aliases": [
+    "Windows Server"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Windows 10/11",
+   "category": "os",
+   "aliases": [
+    "Windows 11",
+    "Windows 10"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "macOS",
+   "category": "os",
+   "aliases": [
+    "macOS",
+    "Mac OS X",
+    "OS X"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Linux",
+   "category": "os",
+   "aliases": [
+    "Linux"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Red Hat Enterprise Linux",
+   "category": "os",
+   "aliases": [
+    "RHEL",
+    "Red Hat Enterprise Linux",
+    "Red Hat Linux"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Ubuntu",
+   "category": "os",
+   "aliases": [
+    "Ubuntu"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "CentOS",
+   "category": "os",
+   "aliases": [
+    "CentOS"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Debian",
+   "category": "os",
+   "aliases": [
+    "Debian"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "iOS",
+   "category": "os",
+   "aliases": [
+    "iPadOS"
+   ],
+   "caseSensitive": [
+    "iOS"
+   ]
+  },
+  {
+   "tag": "Android",
+   "category": "os",
+   "aliases": [
+    "Android"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "ChromeOS",
+   "category": "os",
+   "aliases": [
+    "ChromeOS",
+    "Chrome OS",
+    "Chromebook",
+    "Chromebooks"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Veeam",
+   "category": "backup-storage",
+   "aliases": [
+    "Veeam"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Commvault",
+   "category": "backup-storage",
+   "aliases": [
+    "Commvault"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Rubrik",
+   "category": "backup-storage",
+   "aliases": [
+    "Rubrik"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Cohesity",
+   "category": "backup-storage",
+   "aliases": [
+    "Cohesity"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Druva",
+   "category": "backup-storage",
+   "aliases": [
+    "Druva"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Acronis",
+   "category": "backup-storage",
+   "aliases": [
+    "Acronis"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Veritas NetBackup",
+   "category": "backup-storage",
+   "aliases": [
+    "Veritas",
+    "NetBackup"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "NetApp",
+   "category": "backup-storage",
+   "aliases": [
+    "NetApp",
+    "ONTAP"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Pure Storage",
+   "category": "backup-storage",
+   "aliases": [
+    "Pure Storage"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Dell EMC",
+   "category": "backup-storage",
+   "aliases": [
+    "Dell EMC",
+    "EMC Isilon",
+    "PowerScale",
+    "PowerStore"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Snowflake",
+   "category": "data",
+   "aliases": [],
+   "caseSensitive": [
+    "Snowflake"
+   ],
+   "ignoreIn": [
+    "Snowflake schema"
+   ]
+  },
+  {
+   "tag": "Databricks",
+   "category": "data",
+   "aliases": [
+    "Databricks"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Google BigQuery",
+   "category": "data",
+   "aliases": [
+    "BigQuery"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Amazon Redshift",
+   "category": "data",
+   "aliases": [
+    "Redshift"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Apache Spark",
+   "category": "data",
+   "aliases": [
+    "Apache Spark",
+    "PySpark",
+    "Spark SQL",
+    "Spark Streaming"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Apache Kafka",
+   "category": "data",
+   "aliases": [
+    "Kafka",
+    "Apache Kafka",
+    "Confluent Kafka"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Apache Airflow",
+   "category": "data",
+   "aliases": [
+    "Apache Airflow"
+   ],
+   "caseSensitive": [
+    "Airflow"
+   ]
+  },
+  {
+   "tag": "dbt",
+   "category": "data",
+   "aliases": [],
+   "caseSensitive": [
+    "dbt"
+   ]
+  },
+  {
+   "tag": "Fivetran",
+   "category": "data",
+   "aliases": [
+    "Fivetran"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Informatica",
+   "category": "data",
+   "aliases": [
+    "Informatica"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Talend",
+   "category": "data",
+   "aliases": [
+    "Talend"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Tableau",
+   "category": "data",
+   "aliases": [
+    "Tableau"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Microsoft Power BI",
+   "category": "data",
+   "aliases": [
+    "Power BI",
+    "PowerBI"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Looker",
+   "category": "data",
+   "aliases": [],
+   "caseSensitive": [
+    "Looker"
+   ]
+  },
+  {
+   "tag": "Qlik",
+   "category": "data",
+   "aliases": [
+    "Qlik",
+    "QlikView",
+    "Qlik Sense"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Microsoft Fabric",
+   "category": "data",
+   "aliases": [
+    "Microsoft Fabric"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Azure Synapse",
+   "category": "data",
+   "aliases": [
+    "Azure Synapse",
+    "Synapse Analytics"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Hadoop",
+   "category": "data",
+   "aliases": [
+    "Hadoop",
+    "HDFS"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "PostgreSQL",
+   "category": "database",
+   "aliases": [
+    "PostgreSQL",
+    "Postgres"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "MySQL",
+   "category": "database",
+   "aliases": [
+    "MySQL",
+    "MariaDB"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Microsoft SQL Server",
+   "category": "database",
+   "aliases": [
+    "SQL Server",
+    "MSSQL",
+    "MS SQL"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Oracle Database",
+   "category": "database",
+   "aliases": [
+    "Oracle Database",
+    "Oracle DB",
+    "Oracle RAC",
+    "PL/SQL"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "MongoDB",
+   "category": "database",
+   "aliases": [
+    "MongoDB"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Redis",
+   "category": "database",
+   "aliases": [
+    "Redis"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Apache Cassandra",
+   "category": "database",
+   "aliases": [
+    "Apache Cassandra"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Amazon DynamoDB",
+   "category": "database",
+   "aliases": [
+    "DynamoDB"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Azure Cosmos DB",
+   "category": "database",
+   "aliases": [
+    "Cosmos DB",
+    "CosmosDB"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "SQLite",
+   "category": "database",
+   "aliases": [
+    "SQLite"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Neo4j",
+   "category": "database",
+   "aliases": [
+    "Neo4j"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "ClickHouse",
+   "category": "database",
+   "aliases": [
+    "ClickHouse"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "CockroachDB",
+   "category": "database",
+   "aliases": [
+    "CockroachDB"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "SQL",
+   "category": "database",
+   "aliases": [],
+   "caseSensitive": [
+    "SQL"
+   ]
+  },
+  {
+   "tag": "Python",
+   "category": "languages",
+   "aliases": [
+    "Python"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Java",
+   "category": "languages",
+   "aliases": [],
+   "caseSensitive": [
+    "Java"
+   ]
+  },
+  {
+   "tag": "JavaScript",
+   "category": "languages",
+   "aliases": [
+    "JavaScript"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "TypeScript",
+   "category": "languages",
+   "aliases": [
+    "TypeScript"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Go",
+   "category": "languages",
+   "aliases": [
+    "Golang"
+   ],
+   "caseSensitive": [
+    "Go (Golang)"
+   ]
+  },
+  {
+   "tag": "Rust",
+   "category": "languages",
+   "aliases": [],
+   "caseSensitive": [
+    "Rust"
+   ]
+  },
+  {
+   "tag": "C#",
+   "category": "languages",
+   "aliases": [
+    "C#"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "C++",
+   "category": "languages",
+   "aliases": [
+    "C++"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": ".NET",
+   "category": "languages",
+   "aliases": [
+    ".NET",
+    ".NET Core",
+    "ASP.NET"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Ruby",
+   "category": "languages",
+   "aliases": [
+    "Ruby on Rails"
+   ],
+   "caseSensitive": [
+    "Ruby",
+    "Rails"
+   ]
+  },
+  {
+   "tag": "PHP",
+   "category": "languages",
+   "aliases": [
+    "PHP"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Kotlin",
+   "category": "languages",
+   "aliases": [
+    "Kotlin"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Swift",
+   "category": "languages",
+   "aliases": [
+    "SwiftUI"
+   ],
+   "caseSensitive": [
+    "Swift"
+   ]
+  },
+  {
+   "tag": "Scala",
+   "category": "languages",
+   "aliases": [],
+   "caseSensitive": [
+    "Scala"
+   ]
+  },
+  {
+   "tag": "PowerShell",
+   "category": "languages",
+   "aliases": [
+    "PowerShell"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Bash",
+   "category": "languages",
+   "aliases": [
+    "Shell scripting"
+   ],
+   "caseSensitive": [
+    "Bash"
+   ]
+  },
+  {
+   "tag": "Perl",
+   "category": "languages",
+   "aliases": [],
+   "caseSensitive": [
+    "Perl"
+   ]
+  },
+  {
+   "tag": "React",
+   "category": "frameworks",
+   "aliases": [
+    "React.js",
+    "ReactJS",
+    "React Native"
+   ],
+   "caseSensitive": [
+    "React"
+   ]
+  },
+  {
+   "tag": "Angular",
+   "category": "frameworks",
+   "aliases": [
+    "AngularJS"
+   ],
+   "caseSensitive": [
+    "Angular"
+   ]
+  },
+  {
+   "tag": "Vue.js",
+   "category": "frameworks",
+   "aliases": [
+    "Vue.js",
+    "VueJS"
+   ],
+   "caseSensitive": [
+    "Vue"
+   ]
+  },
+  {
+   "tag": "Node.js",
+   "category": "frameworks",
+   "aliases": [
+    "Node.js",
+    "NodeJS"
+   ],
+   "caseSensitive": [
+    "Node"
+   ]
+  },
+  {
+   "tag": "Django",
+   "category": "frameworks",
+   "aliases": [
+    "Django"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Flask",
+   "category": "frameworks",
+   "aliases": [],
+   "caseSensitive": [
+    "Flask"
+   ]
+  },
+  {
+   "tag": "FastAPI",
+   "category": "frameworks",
+   "aliases": [
+    "FastAPI"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Spring Boot",
+   "category": "frameworks",
+   "aliases": [
+    "Spring Boot",
+    "Spring Framework"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "GraphQL",
+   "category": "frameworks",
+   "aliases": [
+    "GraphQL"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Salesforce",
+   "category": "business-apps",
+   "aliases": [
+    "Salesforce",
+    "Salesforce CRM",
+    "Sales Cloud",
+    "Service Cloud"
+   ],
+   "caseSensitive": [],
+   "ignoreIn": [
+    "Salesforce Tower",
+    "Salesforce Park"
+   ]
+  },
+  {
+   "tag": "HubSpot",
+   "category": "business-apps",
+   "aliases": [
+    "HubSpot"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "SAP",
+   "category": "business-apps",
+   "aliases": [
+    "SAP S/4HANA",
+    "S/4HANA",
+    "SAP ECC"
+   ],
+   "caseSensitive": [
+    "SAP"
+   ]
+  },
+  {
+   "tag": "Oracle E-Business Suite",
+   "category": "business-apps",
+   "aliases": [
+    "Oracle E-Business Suite",
+    "Oracle EBS",
+    "Oracle Fusion"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "NetSuite",
+   "category": "business-apps",
+   "aliases": [
+    "NetSuite"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Microsoft Dynamics 365",
+   "category": "business-apps",
+   "aliases": [
+    "Dynamics 365",
+    "Microsoft Dynamics"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Workday HCM",
+   "category": "business-apps",
+   "aliases": [
+    "Workday HCM",
+    "Workday Financials"
+   ],
+   "caseSensitive": [
+    "Workday"
+   ]
+  },
+  {
+   "tag": "UKG",
+   "category": "business-apps",
+   "aliases": [
+    "Kronos"
+   ],
+   "caseSensitive": [
+    "UKG"
+   ]
+  },
+  {
+   "tag": "ADP",
+   "category": "business-apps",
+   "aliases": [],
+   "caseSensitive": [
+    "ADP"
+   ]
+  },
+  {
+   "tag": "Coupa",
+   "category": "business-apps",
+   "aliases": [
+    "Coupa"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Marketo",
+   "category": "business-apps",
+   "aliases": [
+    "Marketo"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Zuora",
+   "category": "business-apps",
+   "aliases": [
+    "Zuora"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Stripe",
+   "category": "business-apps",
+   "aliases": [],
+   "caseSensitive": [
+    "Stripe"
+   ]
+  },
+  {
+   "tag": "Twilio",
+   "category": "business-apps",
+   "aliases": [
+    "Twilio"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Okta Workflows",
+   "category": "business-apps",
+   "aliases": [
+    "Okta Workflows"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Zapier",
+   "category": "business-apps",
+   "aliases": [
+    "Zapier"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Workato",
+   "category": "business-apps",
+   "aliases": [
+    "Workato"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "MuleSoft",
+   "category": "business-apps",
+   "aliases": [
+    "MuleSoft"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Boomi",
+   "category": "business-apps",
+   "aliases": [
+    "Boomi",
+    "Dell Boomi"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "OpenAI",
+   "category": "ai-ml",
+   "aliases": [
+    "OpenAI",
+    "ChatGPT",
+    "GPT-4",
+    "GPT-4o"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Microsoft Copilot",
+   "category": "ai-ml",
+   "aliases": [
+    "Microsoft Copilot",
+    "Microsoft 365 Copilot",
+    "Copilot Studio"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "GitHub Copilot",
+   "category": "ai-ml",
+   "aliases": [
+    "GitHub Copilot"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Anthropic",
+   "category": "ai-ml",
+   "aliases": [
+    "Anthropic"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Azure OpenAI",
+   "category": "ai-ml",
+   "aliases": [
+    "Azure OpenAI"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Amazon Bedrock",
+   "category": "ai-ml",
+   "aliases": [
+    "Amazon Bedrock",
+    "AWS Bedrock"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Google Vertex AI",
+   "category": "ai-ml",
+   "aliases": [
+    "Vertex AI"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Amazon SageMaker",
+   "category": "ai-ml",
+   "aliases": [
+    "SageMaker"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "LangChain",
+   "category": "ai-ml",
+   "aliases": [
+    "LangChain"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "LlamaIndex",
+   "category": "ai-ml",
+   "aliases": [
+    "LlamaIndex"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Hugging Face",
+   "category": "ai-ml",
+   "aliases": [
+    "Hugging Face"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "PyTorch",
+   "category": "ai-ml",
+   "aliases": [
+    "PyTorch"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "TensorFlow",
+   "category": "ai-ml",
+   "aliases": [
+    "TensorFlow"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "scikit-learn",
+   "category": "ai-ml",
+   "aliases": [
+    "scikit-learn",
+    "sklearn"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "MLflow",
+   "category": "ai-ml",
+   "aliases": [
+    "MLflow"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Kubeflow",
+   "category": "ai-ml",
+   "aliases": [
+    "Kubeflow"
+   ],
+   "caseSensitive": []
+  },
+  {
+   "tag": "Pinecone",
+   "category": "ai-ml",
+   "aliases": [],
+   "caseSensitive": [
+    "Pinecone"
+   ]
+  }
+ ]
+}

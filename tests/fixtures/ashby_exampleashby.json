@@ -1,0 +1,21 @@
+{
+ "jobs": [
+  {
+   "id": "ab-1",
+   "title": "Security Engineer, Identity",
+   "jobUrl": "https://jobs.ashbyhq.com/exampleashby/ab-1",
+   "location": "Remote",
+   "isListed": true,
+   "descriptionHtml": "<p>Harden Entra ID and Okta. Run SentinelOne.</p>",
+   "descriptionPlain": "Harden Entra ID and Okta. Run SentinelOne."
+  },
+  {
+   "id": "ab-2",
+   "title": "Hidden role",
+   "jobUrl": "https://jobs.ashbyhq.com/exampleashby/ab-2",
+   "location": "Remote",
+   "isListed": false,
+   "descriptionHtml": "<p>Okta</p>"
+  }
+ ]
+}

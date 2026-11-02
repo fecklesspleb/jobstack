@@ -1,0 +1,18 @@
+[
+ {
+  "id": "lv-1",
+  "text": "Help Desk Technician",
+  "hostedUrl": "https://jobs.lever.co/examplelever/lv-1",
+  "categories": {
+   "location": "Austin, TX"
+  },
+  "description": "<p>Support 400 employees across macOS and Windows.</p>",
+  "lists": [
+   {
+    "text": "Requirements",
+    "content": "<li>Kandji or Jamf</li><li>Google Workspace admin</li><li>Zoom Rooms</li>"
+   }
+  ],
+  "additional": "<p>We meet over Zoom on Fridays.</p>"
+ }
+]
