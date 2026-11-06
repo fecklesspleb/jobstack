@@ -1,0 +1,22 @@
+# jobstack
+
+> Python 3.9+ library and CLI, with no runtime dependencies, that tags job-post text with the tools it asks for (Okta, Intune, Jamf, CrowdStrike and 324 more, 328 in all across 20 categories) and counts which companies are hiring for which tools. It reads the public job-board JSON that Greenhouse, Lever and Ashby publish for each employer. MIT license. Maintained by fecklesspleb.
+
+Matching uses whole words and the longest match. Everyday words such as Slack, Zoom and Rust only match with their usual capitals. Sentences about customers and investors are skipped, chat tools count only in requirements sections, and the employer's own name is dropped. The customer and requirements rules are heuristics. `Tagger.find()` applies only the first four rules and returns raw mentions. Install from source: `git clone https://github.com/fecklesspleb/jobstack && cd jobstack && pip install -e .`. The `jobstack` package on PyPI is a different, unrelated project, so `pip install jobstack` does not install this one.
+
+## Docs
+
+- [README](https://github.com/fecklesspleb/jobstack/blob/main/README.md): install, `jobstack tag`, `jobstack boards ats:slug`, Python API (`Tagger.default()`, `tag`, `find`, `add_terms`), matching rules
+- [DICTIONARY.md](https://github.com/fecklesspleb/jobstack/blob/main/DICTIONARY.md): dictionary format, sources and how to change it
+
+## Code
+
+- [jobstack/tagger.py](https://github.com/fecklesspleb/jobstack/blob/main/jobstack/tagger.py): the tagger and matching rules
+- [jobstack/boards.py](https://github.com/fecklesspleb/jobstack/blob/main/jobstack/boards.py): polite Greenhouse, Lever and Ashby fetcher (reads robots.txt, at least 1 second between requests)
+- [jobstack/report.py](https://github.com/fecklesspleb/jobstack/blob/main/jobstack/report.py): company-by-tool tables
+- [jobstack/data/tech_dictionary.json](https://github.com/fecklesspleb/jobstack/blob/main/jobstack/data/tech_dictionary.json): the 328-tool dictionary
+
+## Optional
+
+- [IT Hiring Signals Actor on Apify](https://apify.com/fecklesspleb/it-hiring-signals): a hosted, paid Actor by the same author that does this kind of tagging across public ATS job boards ($0.0015 per tagged job)
+- [LICENSE](https://github.com/fecklesspleb/jobstack/blob/main/LICENSE): MIT
